@@ -59,6 +59,21 @@ git rebase -i HEAD^^^^
 
 #Un assortiment   
 
+Question 1   
+git branch -f bugFix C1   
+git checkout main   
+git cherry-pick C4   
+
+Question 2   
+git rebase -i caption~2   
+git commit --amend   
+git rebase -i caption~2   
+git branch -f main caption   
+
+Question 3   
+
+
+
 
 
 
